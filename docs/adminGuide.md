@@ -24,7 +24,7 @@ To create new user roles, refer to the Salem [Quickstart](Quickstart.md) guide
 
 #### Salem Azure App
 
-Access to Salem Azure application is controled via the IAM functionality in the [Azure Portal](www.portal.azure.com). From the azure portal, you can view the salem managed application and the Salem managed resource group. You have limited access to make changes to the Salem managed resource group. Review the configuration section of this document for more details
+Access to Salem Azure application is controled via the IAM functionality in the [Azure Portal](https://portal.azure.com). From the azure portal, you can view the salem managed application and the Salem managed resource group. You have limited access to make changes to the Salem managed resource group. Review the configuration section of this document for more details
 
 ### Configure Salem
 
@@ -46,7 +46,7 @@ There are 4 types of configuration files currently supported by Salem:
 Each file is in JSON format and can be viewed and updated via Salem Chat.  To view configurations type 'configure' in the Salem Chat window.  To make changes to configurations type 'update conf' in the Salem Chat window.
 
 #### System Configuration
-System configurations can be viewed and updated from the [Azure Portal](portal.azure.com).  They can be found in the app configuration resource within the Salem managed resource group.  Access to this object requires IAM permissions associated with the Salem managed application.  You can find the name of the managed resource group from the overview tab of the Salem managed application.
+System configurations can be viewed and updated from the [Azure Portal](https://portal.azure.com).  They can be found in the app configuration resource within the Salem managed resource group.  Access to this object requires IAM permissions associated with the Salem managed application.  You can find the name of the managed resource group from the overview tab of the Salem managed application.
 
 #### Azure App Configuration
 Owners and contributors of the Salme managed application will have access to update some settings for resources in the Salem managed resource group.  These settings include:
@@ -60,6 +60,6 @@ Owners and contributors of the Salme managed application will have access to upd
 Additionally, you have read permissions over every resource which allows you to implement Azure Policies to monitor changes in Salem resource settings.
 
 ### Troubleshoot
-Salem Azure Application leverages an Azure Application Insights resource, found in the Azure managed resource group in the [Azure Portal](portal.azure.com).  Access to the Application Insights resource requires Owner or Contributor role access for the Azure Managed Application.
+Salem Azure Application leverages an Azure Application Insights resource, found in the Azure managed resource group in the [Azure Portal](https://portal.azure.com).  Access to the Application Insights resource requires Owner or Contributor role access for the Azure Managed Application.
 
 Application insights has useful information regarding Salem performance and errors.  Your Salem support contact also has access to this resource and can assist in troubleshooting Salem errors.
