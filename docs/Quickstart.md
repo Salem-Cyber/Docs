@@ -1,3 +1,5 @@
+| [Docs Home](../index.md) |
+
 # Quickstart: Deploy Salem
 This quick start will guide you though deployment of Salem, The AI Cyber Security Analyst.
 
@@ -26,11 +28,13 @@ Salem current requires you to have:
     * Enter Redirect URI. Platform type 'Web' with a value of 'https://token.botframework.com/.auth/web/redirect'
 5. Select 'Register'
 6. **Note down the Application ID, Object ID, and Directory ID.**
+
 #### Create App Secret
 7. Select 'Certificates & secrets'
 8. Create 'New client secret'  
 *Select a reasonable expiry time, if the secret expires, users will no longer be able to logon to Salem*
 9. **Note down the secret value**
+
 #### Create App User Roles
 10. Select 'App Roles'
 11. Create Application Roles
@@ -39,6 +43,7 @@ Salem current requires you to have:
         * Allowed Member Types: **Users/Groups**
         * Value: **salem.analyst,salem.admin**
         * Description: **Users with this role will have both analyst and admin permissions**
+
 #### Add Users
 12. Return to Azure Active Directory in the Azure portal
 13. Select 'Enterprise applications'
