@@ -29,11 +29,13 @@ Salem current requires you to have:
 5. Select 'Register'
 6. **Note down the Application ID, Object ID, and Directory ID.**
 
+
 #### Create App Secret
 7. Select 'Certificates & secrets'
 8. Create 'New client secret'  
 *Select a reasonable expiry time, if the secret expires, users will no longer be able to logon to Salem*
 9. **Note down the secret value**
+
 
 #### Create App User Roles
 10. Select 'App Roles'
@@ -43,6 +45,7 @@ Salem current requires you to have:
         * Allowed Member Types: **Users/Groups**
         * Value: **salem.analyst,salem.admin**
         * Description: **Users with this role will have both analyst and admin permissions**
+
 
 #### Add Users
 12. Return to Azure Active Directory in the Azure portal
@@ -54,6 +57,7 @@ Salem current requires you to have:
     * Select the role created above
     * Continue adding individual users as needed.  *NOTE: each user or group can only be assigned on app role*
 
+
 ## Deploy Salem Application
 1. From the Azure portal, search for and select 'Marketplace'.
 2. Find 'Salem AI Cyber Analyst'.  
@@ -62,6 +66,7 @@ Salem current requires you to have:
     * App configuration details should have been note when creating the app registration
     * Under 'Network Configuration', provide a non-overlapping class C IP address (meaning an IP address block not in use in any network you may connect to Salem).  These IP address will be used if you peer the Salem Vnet to other Vnets in your Azure subscription.  Network peering will allow you to send and receive information from Salem without needing to connect to the Internet.  Some communication between Azure services will continue to use Azure network routing.
     * It may take 30 minutes or more to fully provision Salem
+
 
 ## Install Salem Teams App
 1. Customize Salem app manifest
