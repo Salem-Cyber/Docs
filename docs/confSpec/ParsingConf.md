@@ -116,6 +116,12 @@ Accepts and object and returns a json formatted string
 #### to_str(obj)
 Accepts an object and returns a str formatted version of that object
 
+#### url_decode(url_string)
+Accepts a url quoted string and returns a unquoted version
+
+#### url_encode(str)
+Accepts a string and returns a url quoted version of that string
+
 ### lookups
 A dictionary of dictionaries. Each lookup item has a name key and a dictionary value with keys:
 * table

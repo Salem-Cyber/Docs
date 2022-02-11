@@ -66,7 +66,7 @@ Salem current requires you to have:
 ## Install Salem Teams App
 1. Customize Salem app manifest
     * The latest app manifest can be found [here](https://github.com/Salem-Cyber/Utils/tree/main/Teams%20App)
-    * Add in the Deployment ID, and Salem Bot Name. *These values can be found from the Salem app in Azure.  This ID is NOT the ID of the App registration*
+    * Add in the Deployment ID, and Salem Bot Name. *These values can be found from the Salem app in Azure under Parameters and Outputs.  This ID is NOT the ID of the App registration*
 2. Create App package
     * create a zip archive containing the manifest.json, Salem_color.png, and Salem_outline.png files at the root level of the archive.
 3. From the teams admin portal, upload the app zip package.

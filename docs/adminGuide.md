@@ -38,10 +38,10 @@ There are three types of Salem configurations
 
 #### Alert Configuration
 There are 4 types of configuration files currently supported by Salem:
-* ActionConf
-* ActionDefinition
+* [ActionConf](/docs/confSpec/ActionConf.md)
+* [ActionDefinition](/docs/confSpec/ActionDefinition.md)
 * [ParsingConf](/docs/confSpec/ParsingConf.md)
-* ReportConf
+* [ReportConf](/docs/confSpec/ReportConf.md)
 
 Each file is in JSON format and can be viewed and updated via Salem Chat.  To view configurations type 'configure' in the Salem Chat window.  To make changes to configurations type 'update conf' in the Salem Chat window.
 
