@@ -32,7 +32,7 @@ b. The returned messages should contain the alert id.  Select 'yes' to view the 
 
 c. Once the alert is done processing, select 'False Positive'
 
-d. On the expanded card, select this exact user in the left most dropdown list.
+d. On the expanded card, select this exact account in the left most dropdown list.
 
 e. Select 'Yes' to Confirm report as False positive
 
