@@ -1,7 +1,9 @@
+| [Docs Home](../index.md) |
+
 # Walk Through of Salem Functionality
 
 ## 1. Follow Salem Quick Start 
-The Salem quick start guide found [here](https://docs.salemcyber.com/docs/Quickstart.html) will guide you through creating an AD app registration, deploying the Salem App and installing the MS Teams app
+The Salem quick start guide found [here](/docs/Quickstart.md) will guide you through creating an AD app registration, deploying the Salem App and installing the MS Teams app
 
 ### Notes about deployment
 When deploying as a managed app, a notification is sent that kicks off a platform verification and app update.  This process can take up to 15 minutes.  During this time you won't be able to use Salem.
@@ -26,9 +28,13 @@ Alert Name: Malware
 Alert Body: 2022-02-10 08:23:24 action=blocked file=/tmp/scary.py user=$wd123455687 dest=wd12345687
 ```
 
-b. The returned messages should contain the alert id.  Select yes to view the alert card.  Some data will be populated but it might take a minute to get all populated.  Hit update periodically until the Salem threat Likelihood is populated
+b. The returned messages should contain the alert id.  Select 'yes' to view the alert card.  Some data will be populated but it might take a minute to get all populated.  Hit update periodically until the Salem threat Likelihood is populated
 
-c. Once the alert is done processing, select 'False Positive', and under 
+c. Once the alert is done processing, select 'False Positive'
+
+d. On the expanded card, select this exact account in the left most dropdown list.
+
+e. Select 'Yes' to Confirm report as False positive
 
 ## 4. Answer a Salem Question
 Salem asks questions in an attempt to collect contextual information used to improve future threat predictions.  Salem will at most once a day send a request to have you answer a question.  To force a new question to be asked, do the following:

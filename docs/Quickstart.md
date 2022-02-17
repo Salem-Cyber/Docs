@@ -9,11 +9,12 @@ Salem current requires you to have:
 * An active Microsoft 365 license that includes Microsoft Teams
 
 ### Objectives
+Each object must be completed before moving to the next
 1. **Create Azure AD application registration.**  
 *Required to support user authentication*
-3. **Deploy Salem from Azure Marketplace.**  
+2. **Deploy Salem from Azure Marketplace.**  
 *Requires a private class C IP address block (ex. 10.2.0.0/24)*
-4. **Install Salem App in Mircosoft Teams**  
+3. **Install Salem App in Mircosoft Teams**  
 *MS Teams is Salem's primary user interface* 
 
 ## Create Azure AD application registration
@@ -24,7 +25,7 @@ Salem current requires you to have:
 4. From the Register an application page:
     * Enter a name
     * Select account type  
-    *Typically Single tenant will typically be the best option however Multitenant capability might be useful depending on your situation*
+    *Single tenant will typically be the best option however Multitenant capability might be useful depending on your situation*
     * Enter Redirect URI. Platform type 'Web' with a value of 'https://token.botframework.com/.auth/web/redirect'
 5. Select 'Register'
 6. **Note down the Application ID, Object ID, and Directory ID.**
@@ -69,8 +70,8 @@ Salem current requires you to have:
     * Add in the Deployment ID, and Salem Bot Name. *These values can be found from the Salem app in Azure under Parameters and Outputs.  This ID is NOT the ID of the App registration*
 2. Create App package
     * create a zip archive containing the manifest.json, Salem_color.png, and Salem_outline.png files at the root level of the archive.
-3. From the teams admin portal, upload the app zip package.
-4. Once installed, from Microsoft Teams, select Apps and search form Salem AI Cyber Analyst
-5. Open Salem
-    * after a few seconds, Salem should send you a welcome message and then a login prompt
-6. You've no successfully deployed Salem!
+3. From the [teams admin portal](https://admin.teams.microsoft.com), navigate to 'manage apps' and upload the app zip package.
+4. Once installed, open the Microsoft Teams app, select 'Apps' and search form 'Salem AI Cyber Analyst'
+5. Add Salem
+    * after a few seconds, Salem should send you a welcome message
+6. You've now successfully deployed Salem!
