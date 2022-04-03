@@ -1,0 +1,25 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Salem-Cyber/Docs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Salem-Cyber/Docs/issues"
+  },
+  "homepage": "https://github.com/Salem-Cyber/Docs#readme",
+  "dependencies": {
+    "docsify": "^4.12.2"
+  }
+}

@@ -1,5 +1,3 @@
-| [Docs Home](../../index.md) | [Admin Guide](../adminGuide.md) |
-
 # ReportConf Specification
 
 ReportConf controls how Salem investigations are reported to users and third party systems.  Each configuration is associated with an [ActionDefinition](/docs/confSpec/ActionDefinition.md).

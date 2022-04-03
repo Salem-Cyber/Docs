@@ -1,5 +1,3 @@
-| [Docs Home](../../index.md) | [Admin Guide](../adminGuide.md) |
-
 # ParsingConf Specification
 
 ParsingConf controls how data is extracted from raw alerts and stored as parsed alert data.  Parsing Configurations come in three types:

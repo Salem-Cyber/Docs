@@ -1,5 +1,3 @@
-| [Docs Home](../../index.md) | [Admin Guide](../adminGuide.md) |
-
 # Action Definition Specification
 Action definitions contain base parameters for various contextual and reporting actions.  While you can configure your own action definitions, there are default options available to re-use.  To see current configured action definitions, type 'configure' in Salem Chat and follow the prompt.
 
