@@ -1,5 +1,3 @@
-| Docs Home | Admin Guide |
-
 # ActionConf Specification
 ActonConf controls the Salem actions that add contextual information to alert.
 

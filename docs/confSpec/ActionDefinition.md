@@ -1,5 +1,3 @@
-| [Docs Home](../../index.md) | [Admin Guide](../adminGuide.md) |
-
 # Action Definition Specification
 Action definitions contain base parameters for various contextual and reporting actions.  While you can configure your own action definitions, there are default options available to re-use.  To see current configured action definitions, type 'configure' in Salem Chat and follow the prompt.
 
@@ -19,3 +17,6 @@ Email action type is used by reportConf and by default one email actionDefinitio
 
 ## webhook
 Webhook actionDefinitions allow Salem to interact with third party systems, either as [ActionConf](/docs/confSpec/ActionConf.md) or [ReportConf](/docs/confSpec/ReportConf.md) actions.  There are several default configurations loaded into Salem.  To view type 'configure' into Salem Chat and follow the prompt
+
+### webhook auth
+To enable webhook authentication, you need to create a key vault, add a secret and then allow Salem to read that secret.
