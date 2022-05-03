@@ -8,4 +8,4 @@
     * [Action Definition](/confSpec/ActionDefinition.md)
     * [Parsing Conf](/confSpec/ParsingConf.md)
     * [Report Conf](/confSpec/ReportConf.md)
-* [Get Salem](https://www.salemcyber.com/requestDemo)
+* [Get Salem](https://www.salemcyber.com/contact)

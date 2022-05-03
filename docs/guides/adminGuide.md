@@ -47,11 +47,10 @@ Each file is in JSON format and can be viewed and updated via Salem Chat.  To vi
 System configurations can be viewed and updated from the [Azure Portal](https://portal.azure.com).  They can be found in the app configuration resource within the Salem managed resource group.  Access to this object requires IAM permissions associated with the Salem managed application.  You can find the name of the managed resource group from the overview tab of the Salem managed application.
 
 #### Azure App Configuration
-Owners and contributors of the Salme managed application will have access to update some settings for resources in the Salem managed resource group.  These settings include:
+Owners and contributors of the Salem managed application will have access to update some settings for resources in the Salem managed resource group.  These settings include:
 
 * Vnet Peering
 * Vnet DNS configuration
-* Key Vault Secrets
 * App Configuration Keys (for the app configuration resource)
 * Event Hub IP network rules
 
