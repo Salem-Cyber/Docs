@@ -20,3 +20,9 @@ Webhook actionDefinitions allow Salem to interact with third party systems, eith
 
 ### webhook auth
 To enable webhook authentication, you need to create a key vault, add a secret and then allow Salem to read that secret.
+
+To Add credentials to an action definition, update the "credentials" object of the ActionDefinition.
+* `user` is the user name used to authentication Salem to a third party system
+* `secret_name` is the name of a secret in a key vault that contains the credential used to access a third party system
+* `vault_url` is the FQDN (ex: `https://vaultName.vault.azure.net`) of the key vault where the secret is stored
+    * Configure a key vault for Salem to access [here](../guides/configureSecrets.md)
