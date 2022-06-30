@@ -9,11 +9,11 @@ Salem current requires you to have:
 ### Objectives
 Each object must be completed before moving to the next
 1. **Create Azure AD application registration.**  
-*Required to support user authentication*
+    *Required to support user authentication*
 2. **Deploy Salem from Azure Marketplace.**  
-*Requires a private class C IP address block (ex. 10.2.0.0/24)*
+    *Requires a private class C IP address block (ex. 10.2.0.0/24)*
 3. **Install Salem App in Mircosoft Teams**  
-*MS Teams is Salem's primary user interface* 
+    *MS Teams is Salem's primary user interface* 
 
 ## Create Azure AD application registration
 #### Create App Registration
@@ -23,7 +23,7 @@ Each object must be completed before moving to the next
 4. From the Register an application page:
     * Enter a name
     * Select account type  
-    *Single tenant will typically be the best option however Multitenant capability might be useful depending on your situation*
+    *Single tenant will typically be the best option however Multi-tenant capability might be useful depending on your situation*
     * Enter Redirect URI. Platform type 'Web' with a value of 'https://token.botframework.com/.auth/web/redirect'
 5. Select 'Register'
 6. **Note down the Application ID, Object ID, and Directory ID.**
@@ -64,7 +64,7 @@ Each object must be completed before moving to the next
 
 ## Install Salem Teams App
 1. Customize Salem app manifest
-    * The latest app manifest can be found [here](https://github.com/Salem-Cyber/Utils/tree/main/Teams%20App)
+    * The latest app manifest can be found [here](https://github.com/SalemCyberAI/Utils/tree/main/Teams%20App)
     * Add in the Deployment ID, and Salem Bot Name. *These values can be found from the Salem app in Azure under Parameters and Outputs.  This ID is NOT the ID of the App registration*
 2. Create App package
     * create a zip archive containing the manifest.json, Salem_color.png, and Salem_outline.png files at the root level of the archive.
